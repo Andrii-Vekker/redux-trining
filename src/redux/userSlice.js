@@ -1,21 +1,21 @@
-import { createSlice } from "@reduxjs/toolkit";
+// import { createSlice } from "@reduxjs/toolkit";
 
-export const userSlise = createSlice({
-    name: "user",
-    initialState: {
-        login: "",
-        isLoggedIn: false
-    },
-    reducers: {
-        logIn(state, action) {
-            state.login = action.payload;
-            state.isLoggedIn = true;
-        },
-        logOut(state) {
-            state.login = "";
-            state.isLoggedIn = false
-        }
-    }
-});
+// export const userSlise = createSlice({
+//     name: "user",
+//     initialState: {
+//         login: "",
+//         isLoggedIn: false
+//     },
+//     reducers: {
+//         logIn(state, action) {
+//             state.login = action.payload;
+//             state.isLoggedIn = true;
+//         },
+//         logOut(state) {
+//             state.login = "";
+//             state.isLoggedIn = false
+//         }
+//     }
+// });
 
-export const {logIn, logOut} = userSlise.actions
+// export const {logIn, logOut} = userSlise.actions
