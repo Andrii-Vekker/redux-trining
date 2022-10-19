@@ -14,7 +14,7 @@ const isLogIn = useSelector(state => state.user.isLoggedIn)
         e.preventDefault()
         console.log(e.target.elements.login.value)
         dispatch(logIn(e.target.elements.login.value))
-        nav("/dashboard", {replace:true})
+        // nav("/dashboard", {replace:true})
 }
 
     return (
